@@ -5,7 +5,7 @@ var chances = 3,
 
 // get random number AI
 var numAnswer = Math.floor(Math.random() * 10) + 1;
-console.log(numAnswer);
+// console.log(numAnswer);
 
 while (pChances < chances) {
   if (pGuess == numAnswer) {
